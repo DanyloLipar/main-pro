@@ -1,0 +1,218 @@
+@import '../../styles/vars.scss';
+@import '../../styles/mixins.scss';
+@import '../../styles/fonts.scss';
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $general-color;
+    &__logo {
+      display: flex;
+      align-items: center;
+      & > p {
+        font-size: 26px;
+        color: $white;
+        margin-left: 14px;
+        margin-right: 24px;
+        font-weight: 700;
+        font-family: 'Lato', sans-serif;
+        line-height: 31.2px;
+      }
+      & > button {
+        @include sizer(35px, 211px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        border: none;
+        background-color: $white;
+        margin-top: 9px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+      }
+      &-menu {
+        padding: 18px;
+        @include sizer(26.67px, 26.67px);
+      }
+    }
+  
+    &__icons {
+      display: flex;
+      gap: 33px;
+      margin-right: 50.94px;
+      &-inp {
+        border-radius: 5px;
+        border: none;
+      }
+    }
+}
+
+.head {
+    height: 113px;
+    background: $container-color;
+}
+
+.dark {
+    background: $darken;
+}
+
+.panel {
+    display: flex;
+    font-family: 'Abel', sans-serif;
+    background: $white;
+}
+
+.buttons {
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin-left: 60px;
+        margin-top: 9px;
+    }
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid $general-color;
+    margin-top: 17px;
+    & > p {
+        color: $panel-txt;
+    }
+    &__txt {
+        margin-bottom: 16px;
+        margin-left: 70px;
+        & > p {
+            color: $panel-txt;
+            font-size: 18px;
+            & > span {
+                margin-left: 13px;
+            }
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        gap: 14px;
+    }
+    &:first-child {
+        margin-left: 46px;
+    }
+    &:nth-child(2) {
+        margin-left: 82px;
+        & > p {
+            margin-left: 64px;
+            & > span {
+                color: $span;
+            }
+        }
+    }
+    &:nth-child(3) {
+        margin-left: 80px;
+        & > p {
+            margin-left: 32px;
+        }
+    }
+    &:nth-child(4) {
+        margin-left: 80px;
+        & > p {
+            margin-left: 68px;
+        }
+    }
+
+    & > p {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 13.66px;
+    &__label {
+        position: relative;
+        display: inline-block;
+        margin-left: 16px;
+        width: 36px;
+        height: 16px;
+    }
+    & > p {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+.inp1,
+.inp2 { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider1,
+.slider2 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $swithc-bckg;
+    -webkit-transition: .4s;
+    transition: .4s;
+    &::before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: px;
+        bottom: 1.3px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+}
+
+.slider1::before {
+    background: $switch1;
+}
+
+.slider2::before {
+    background: $switch2;
+}
+
+.slider1.round,
+.slider2.round {
+    border-radius: 34px;
+    &::before {
+        border-radius: 50%;
+    }
+}
+
+.inp1:checked + .slider1 {
+    background-color: $white;
+}
+
+.inp1:focus + .slider1 {
+    box-shadow: 0 0 1px $switch1;
+}
+
+.inp2:checked + .slider2 {
+    background-color: $white;
+}
+
+.inp2:focus + .slider2 {
+    box-shadow: 0 0 1px $switch2;
+}
+
+.inp1:checked + .slider1::before,
+.inp2:checked + .slider2::before {
+    -webkit-transform: translateX(20.5px);
+    -ms-transform: translateX(20.5px);
+    transform: translateX(20.5px);
+}

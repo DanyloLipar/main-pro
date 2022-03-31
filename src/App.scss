@@ -1,0 +1,12 @@
+@import './styles/mixins.scss';
+@import './styles/vars.scss';
+@import './styles/reset.scss';
+
+#root {
+  display: flex;
+  width: 100%;
+}
+
+.general {
+  width: 100%;
+}

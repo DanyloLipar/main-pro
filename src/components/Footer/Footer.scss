@@ -1,0 +1,18 @@
+@import '../../styles/vars.scss';
+@import '../../styles/fonts.scss';
+
+.bottom {
+    text-align: end;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 7px 0;
+    & > p {
+        margin-right: 42px;
+    }
+}
+
+.dark {
+    background: $darken;
+    color: $white;
+}
