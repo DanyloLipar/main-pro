@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/main-pro/static/css/main.63dfbe25.css",
+    "main.js": "/main-pro/static/js/main.2f98617c.js",
+    "static/js/787.40a79063.chunk.js": "/main-pro/static/js/787.40a79063.chunk.js",
+    "static/media/friends.svg": "/main-pro/static/media/friends.c7225ff1c5a79d5fd9932f97e0c228a9.svg",
+    "static/media/warning.svg": "/main-pro/static/media/warning.8a8b5dccfa0fd163be6bf5dab053a71c.svg",
+    "static/media/service.svg": "/main-pro/static/media/service.3ac2bc929d68c7be612e62590a115434.svg",
+    "static/media/paper.svg": "/main-pro/static/media/paper.362ed14cdf66c6e4c64570b571325669.svg",
+    "static/media/money.svg": "/main-pro/static/media/money.6e4feebf52a11e97c434ba2067341d41.svg",
+    "static/media/bell.svg": "/main-pro/static/media/bell.5d708dc57ad34d4a77c3fe5de24dc5d7.svg",
+    "static/media/menu.svg": "/main-pro/static/media/menu.6150fa62659ec64858535a9ae2b20dec.svg",
+    "static/media/stat.svg": "/main-pro/static/media/stat.d7f93f30306ce75bbedc44b9e48caaa5.svg",
+    "static/media/message.svg": "/main-pro/static/media/message.f8409a6ce3a1be6d250f58e663a76e33.svg",
+    "static/media/arrow.svg": "/main-pro/static/media/arrow.bada95dc806e7a0397b57f7645db2cc6.svg",
+    "static/media/copy.svg": "/main-pro/static/media/copy.564a576977b524d1b1ca3dc682ff17bd.svg",
+    "static/media/home.svg": "/main-pro/static/media/home.b4583114a4b8fb3d46003778dabc3746.svg",
+    "static/media/search.svg": "/main-pro/static/media/search.ce6ad9476f050a0035152e461ea3e85b.svg",
+    "static/media/person.svg": "/main-pro/static/media/person.58a2e8551ff35bfc4fd7faf478f28b6c.svg",
+    "static/media/open-arrow.svg": "/main-pro/static/media/open-arrow.69e4f0eac0c1e719c74360ffcd868e17.svg",
+    "static/media/close-arrow.svg": "/main-pro/static/media/close-arrow.bb774577e1f23a25200c8cf4476dafb3.svg",
+    "index.html": "/main-pro/index.html",
+    "static/media/done.svg": "/main-pro/static/media/done.6040c84c6769c54fe1bd2c020ee7dc00.svg",
+    "static/media/shield.svg": "/main-pro/static/media/shield.93632bb24b05dd7d7576d7a8eeedb741.svg",
+    "main.63dfbe25.css.map": "/main-pro/static/css/main.63dfbe25.css.map",
+    "main.2f98617c.js.map": "/main-pro/static/js/main.2f98617c.js.map",
+    "787.40a79063.chunk.js.map": "/main-pro/static/js/787.40a79063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63dfbe25.css",
+    "static/js/main.2f98617c.js"
+  ]
+}
